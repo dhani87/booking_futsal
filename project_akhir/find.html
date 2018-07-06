@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>find</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<nav class="navbar" style="background-color: white; color: black; margin-top: -10px;">
+    <div class="container-fluid">
+      <div class="navbar-header"
+      class="navbar-brand" href="#" style ="font-size: 20px;  margin-top: 10px;">
+      <img src="logoo.png" style="width: 55px; height: auto; margin-bottom: 15px;">
+      BOOKING ALTHEA FUTSAL
+
+      </div>
+      <ul class="nav navbar‐nav">
+        <br>
+        <br>
+          <li><a href="signup.php" style="float: right;">Sign Up</a></li>
+          <li><a href="login.php" style="float: right;">Login</a></li>
+          <li><a href="Schedule.php" style="float: right;">Schedule</a></li>
+          <li><a href="index.html" style="float: right;">Home</a></li>
+      </ul>
+  </div>
+</nav>
+<hr style="border-bottom: 2px solid black; margin-top: -20px;">
+<body style="background-image: url(32.png);" >
+<center>
+<h1 style="margin-top: 50px;">Find us</h1>
+
+<div id="map" style="width:100%;height:200px;"></div>
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script> 
+<iframe style="margin-top: -200px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.1448909278683!2d112.70617231477611!3d-7.449217694626034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e149ee8a669d%3A0x41a5c332f7dcba15!2sAlthea+Futsal!5e0!3m2!1sid!2sid!4v1524581271979" width="600" height="450" frameborder="0" style="border:0"  allowfullscreen></iframe>
+</center>
+
+</body>
+</html>
